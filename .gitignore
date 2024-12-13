@@ -1,24 +1,36 @@
-# Compiled class file
-*.class
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
 
-# Log file
+# Maven target folder
+target/
+
+# Tomcat files
 *.log
+*.class
+webapp/WEB-INF/classes/
+webapp/WEB-INF/lib/
 
-# BlueJ files
-*.ctxt
+# Arquivos de dependências que podem ser regenerados
+.mvn/
+dependency-reduced-pom.xml
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Arquivos de configuração locais
+*.db
+*.sql~
+*.swp
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Eclipse
+.project
+.classpath
+.settings/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Outros arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos específicos de banco de dados (se houver)
+*.sqlite
+*.db
+
